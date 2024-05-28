@@ -80,7 +80,7 @@ const Navbar = () => {
                 className={darkMode ? "nav-link text-light" : "nav-link"}
                 aria-current="page"
                 href="#"
-                onClick={() => handleNews("Indian Entertainment") }
+                onClick={() => handleNews("Bollywood") }
               >
                 Entertainment
               </a>

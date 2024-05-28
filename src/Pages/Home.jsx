@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import Caraousel from "../components/Caraousel";
-import WeatherCard from "../components/WeatherCard";
 import NewsCard from "../components/NewsCard";
 import NewsContext from "../Context/news/NewsContext";
 import { fetchNews } from "../Context/news/NewsActions";
@@ -40,11 +39,9 @@ const getNews = async (topic) => {
         <h1 className="text-center my-3">TOP NEWS</h1>
 
         <section>
-          <div className="row g-3">
-            
-            <WeatherCard/>
+          <div className="row">
 
-            <div className="col-md-8 col-sm-12 g-3">
+            <div className="col-md-12 col-sm-12 g-3">
              {
               allNews.map((news , index) => <NewsCard key = {index} news = {news} />)
              }
