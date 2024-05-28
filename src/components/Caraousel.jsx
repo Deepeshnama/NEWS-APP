@@ -13,28 +13,13 @@ const Caraousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://media.tenor.com/AZpOPn5hnAUAAAAi/ranch1.gif"
+            src="https://img.freepik.com/free-vector/breaking-news-live-streaming-concept_23-2148500721.jpg?w=996&t=st=1716880772~exp=1716881372~hmac=2dced0553b1bcedd496aba5823ec0d7d0f1751d9c1d2e21e7e61d65a3aae2c5e"
             className="d-block w-100"
             alt="..."
             style={customStyle}
           />
         </div>
-        <div className="carousel-item">
-          <img
-            src="https://media.tenor.com/PqpfXhwGjd8AAAAi/tv-news.gif"
-            className="d-block w-100"
-            alt="..."
-            style={customStyle}
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://media1.tenor.com/m/YPS4UpFRyBUAAAAd/fake-news-lady-decade.gif"
-            className="d-block w-100"
-            alt="..."
-            style={customStyle}
-          />
-        </div>
+        
       </div>
       <button
         className="carousel-control-prev"
