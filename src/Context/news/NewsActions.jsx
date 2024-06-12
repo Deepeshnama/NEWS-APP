@@ -15,7 +15,7 @@ let month = today.split("/")[0];
 export const fetchNews = async (topic) => {
   try {
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=${topic}&from=2024-06-13&sortBy=publishedAt&apiKey=0ca33b4844b242b58ccac08b02ccbfad`
+      `https://newsapi.org/v2/everything?q=tesla&from=2024-05-12&sortBy=publishedAt&apiKey=c597a43730154fc1b90adb98e0447892`
     );
 
     const data = await response.json();
